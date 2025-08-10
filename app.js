@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -16,6 +16,12 @@ function exibirTextoNaTela(tag, texto) {
     }
 }
 
+/*************  ✨ Windsurf Command ⭐  *************/
+/**
+ * Exibe a mensagem inicial do jogo na tela.
+ * @function exibirMensagemInicial
+ */
+/*******  b735dde7-134c-4c85-8ff0-d8d8330ad382  *******/
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
